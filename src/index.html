@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer Website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="news.html">News</a>
+            <a href="#contact">Contact</a>
+            <a href="about.html">About</a>
+          </div>
+        <div class="container">
+            <div class="image-container">
+                <img src="apple.svg" alt="apple"/>
+                <p id="timer" class="overlay-text"></p>
+            </div>
+        <div class="buttons">
+                <button id="first-button" onclick="startTimer()">Start</button>
+                <button id="second-button" onclick="pauseTimer()">Pause</button>
+                <button id="third-button" onclick="stopTimer()">Stop</button>
+            </div>
+            <h4 id="message"></h4>
+        </div>
+        <script src="script.js"></script>
+        <script src="apple.js"></script>
+    </body>
+</html>
+
