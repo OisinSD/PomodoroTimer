@@ -30,14 +30,15 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: xx-large;
-    background-color: white;
+    /* background-color: white; */
     padding: 5px;
     /* border-radius: 7px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: 'Orbitron', sans-serif !important;
 }
 .overlay-text:hover{
-    background-color: yellow;
+    /* background-color: yellow; */
+    color: yellow;
 }
 
 /* buttons */
@@ -63,7 +64,7 @@ button {
 /*pause button text color is gray for better visability against yellow background*/
 #second-button{
     background-color: yellow;
-    /* color: gray;  */  
+    color: gray;   
 }
 
 /*stop button*/
