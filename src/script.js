@@ -1,6 +1,6 @@
 // const timer = document.getElementById('timer');
 
-let timeLeft = 1500;
+let timeLeft = 62;
 let pauseTime = timeLeft;
 let timerId;
 const button2 = document.getElementById('second-button');
@@ -39,9 +39,10 @@ function stopTimer(){
     timerId = null;
     timeLeft = 1500;
     document.getElementById('timer').style.color="black";
-    document.getElementById('timer').style.backgroundColor = 'white';
+    document.getElementById('timer').style.backgroundColor = '';
     document.getElementById('message').innerText = "";
     document.getElementById('timer').style.borderRadius = "0px";
+    // document.getElementById('timer').style.backgroundColor
     button2.innerHTML = 'Pause'
     updateTimer();
 
