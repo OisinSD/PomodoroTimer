@@ -30,10 +30,10 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: xx-large;
-    /* background-color: white; */
+    background-color: white;
     padding: 5px;
-    /* border-radius: 7px; */
-    /* border: 2px solid black; */
+    border-radius: 7px;
+    border: 2px solid black;
     font-family: 'Orbitron', sans-serif !important;
 }
 .overlay-text:hover{
@@ -54,7 +54,7 @@ button {
     border-radius: 5px;
     border-color: white;
     padding: 5px 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /*start button*/
